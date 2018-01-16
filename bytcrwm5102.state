@@ -3747,8 +3747,8 @@ state.bytcrwm5102 {
 	control.304 {
 		iface MIXER
 		name 'Speaker Digital Switch'
-		value.0 false
-		value.1 false
+		value.0 true
+		value.1 true
 		comment {
 			access 'read write'
 			type BOOLEAN
@@ -16294,7 +16294,7 @@ state.bytcrwm5102 {
 	control.583 {
 		iface MIXER
 		name 'SPKOUTL Input 1'
-		value None
+		value AIF1RX1
 		comment {
 			access 'read write'
 			type ENUMERATED
@@ -16750,7 +16750,7 @@ state.bytcrwm5102 {
 	control.587 {
 		iface MIXER
 		name 'SPKOUTR Input 1'
-		value None
+		value AIF1RX2
 		comment {
 			access 'read write'
 			type ENUMERATED
