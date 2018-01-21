@@ -1799,7 +1799,7 @@ state.bytcrwm5102 {
 	control.161 {
 		iface MIXER
 		name 'IN3L Volume'
-		value 0
+		value 25
 		comment {
 			access 'read write'
 			type INTEGER
@@ -18118,7 +18118,7 @@ state.bytcrwm5102 {
 	control.599 {
 		iface MIXER
 		name 'AIF1TX1 Input 1'
-		value None
+		value IN3L
 		comment {
 			access 'read write'
 			type ENUMERATED
