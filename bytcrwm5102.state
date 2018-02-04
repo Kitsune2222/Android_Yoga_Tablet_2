@@ -1799,7 +1799,7 @@ state.bytcrwm5102 {
 	control.161 {
 		iface MIXER
 		name 'IN3L Volume'
-		value 25
+		value 31
 		comment {
 			access 'read write'
 			type INTEGER
